@@ -24,15 +24,7 @@ echo "Install tools from BioConda"
 echo " "
 
 # Install tools from BioConda
-conda install bwa bowtie2 fastqc -y
-
-echo " "
-echo "Quality check"
-echo " "
-
-# Quality check
-fastqc Example_Condition1.fastq
-fastqc Example_Condition2.fastq
+conda install bwa bowtie2 -y
 
 echo " "
 echo "Create a BWA index in the genomic reference"
