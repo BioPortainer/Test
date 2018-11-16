@@ -9,15 +9,15 @@ echo "Download Samples"
 echo " "
 
 # Download Samples
-wget https://cs.wellesley.edu/~btjaden/Rockhopper/download/Example_Condition1.fastq
-wget https://cs.wellesley.edu/~btjaden/Rockhopper/download/Example_Condition2.fastq
+wget https://raw.githubusercontent.com/BioPortainer/Test/master/JobRunner/Example_Condition1.fastq
+wget https://raw.githubusercontent.com/BioPortainer/Test/master/JobRunner/Example_Condition2.fastq
 
 echo " "
 echo "Download Reference"
 echo " "
 
 # Download Reference
-wget https://raw.githubusercontent.com/BioPortainer/Test/master/Jobs/Mycoplasma_genitalium.fa
+wget https://raw.githubusercontent.com/BioPortainer/Test/master/JobRunner/Mycoplasma_genitalium.fa
 
 echo " "
 echo "Install tools from BioConda"
