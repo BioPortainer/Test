@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # initial example of a pipeline script
+# Files: https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise
 
 echo "Initial example of a pipeline script"
 echo " "
