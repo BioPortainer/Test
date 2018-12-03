@@ -23,8 +23,11 @@ echo " "
 echo "Install tools from BioConda"
 echo " "
 
-# Install tools from BioConda
-conda install bwa bowtie2 -y
+# Install Tuxedo Suite from BioConda
+echo " "
+echo "Install Tuxedo Suite from BioConda"
+echo " "
+conda install tophat cufflinks cummerbund -y
 
 echo " "
 echo "Create a BWA index in the genomic reference"
