@@ -50,8 +50,8 @@ echo "Convert the alignment into a .sam file"
 echo " "
 
 # Convert the alignment into a .sam file
-bwa samse Mycoplasma_genitalium.fa out1.sai Example_Condition1.fastq > out1_bwa.sam
-bwa samse Mycoplasma_genitalium.fa out2.sai Example_Condition2.fastq > out2_bwa.sam
+bwa samse Mycoplasma_genitalium.fa out1_bwa.sai Example_Condition1.fastq > out1_bwa.sam
+bwa samse Mycoplasma_genitalium.fa out2_bwa.sai Example_Condition2.fastq > out2_bwa.sam
 
 echo " "
 echo "Create a bowtie2 index in the genomic reference"
