@@ -66,7 +66,7 @@ echo " "
 
 #Map the reads to the previously indexed genomic reference
 tophat -p 8 -o C1_R1_thout Mycoplasma_genitalium Example_Condition1.fastq
-tophat -p 8 -o C1_R1_thout Mycoplasma_genitalium Example_Condition2.fastq
+tophat -p 8 -o C1_R2_thout Mycoplasma_genitalium Example_Condition2.fastq
 
 echo " "
 echo "Assemble transcripts"
