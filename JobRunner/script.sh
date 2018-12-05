@@ -28,7 +28,7 @@ echo " "
 echo " "
 echo "Install Tuxedo Suite from BioConda"
 echo " "
-conda install bwa bowtie2 tophat cufflinks -y
+conda install readline=6.2 bwa bowtie2 tophat cufflinks -y
 
 echo " "
 echo "Create a BWA index in the genomic reference"
