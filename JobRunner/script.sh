@@ -76,6 +76,10 @@ echo " "
 cufflinks -p 8 -o C1_R1_clout C1_R1_thout/accepted_hits.bam
 cufflinks -p 8 -o C1_R2_clout C1_R2_thout/accepted_hits.bam
 
+echo " "
+echo "Align the reads in the input file against the genomic reference"
+echo " "
+
 # Align the reads in the input file against the genomic reference
 bowtie2 -x Mycoplasma_genitalium -U Example_Condition1.fastq -S out1_bwt.sam
 bowtie2 -x Mycoplasma_genitalium -U Example_Condition2.fastq -S out2_bwt.sam
