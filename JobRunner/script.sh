@@ -3,6 +3,10 @@
 # initial example of a pipeline script
 # Files: https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise
 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+pyenv activate $PYTHON3_VERSION
+
 echo "Initial example of a pipeline script"
 echo " "
 
