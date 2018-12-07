@@ -21,16 +21,6 @@ echo " "
 wget https://raw.githubusercontent.com/BioPortainer/Test/master/JobRunner/Mycoplasma_genitalium.fa
 
 echo " "
-echo "Install tools from BioConda"
-echo " "
-
-# Install Tuxedo Suite from BioConda
-echo " "
-echo "Install Tuxedo Suite from BioConda"
-echo " "
-conda install readline=6.2 bwa bowtie2 tophat cufflinks -y
-
-echo " "
 echo "Create a BWA index in the genomic reference"
 echo " "
 
